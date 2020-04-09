@@ -1,0 +1,12 @@
+#about .box {
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+#about .icon {
+  margin-right: 5rem;
+}
+#about .icon {
+  width: 216px;
+  height: 216px;
+}

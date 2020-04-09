@@ -1,0 +1,114 @@
+/* Navbar */
+
+#main-nav {
+  display: flex;
+  flex-direction: column;
+}
+#main-nav .logo {
+  margin: 2rem 0;
+}
+
+/* Section: Super powers */
+#super-powers {
+  padding: 0 1rem;
+}
+#super-powers .icon,
+#super-powers h1 {
+  text-align: center;
+}
+#super-powers .items {
+  display: flex;
+}
+#super-powers .item1 {
+  width: 100%;
+}
+#super-powers .item2 {
+  width: 100%;
+}
+#super-powers .item3 {
+  width: 100%;
+}
+
+/* Section: Projects */
+#projects {
+  text-align: center;
+}
+#projects img {
+  display: none;
+}
+#projects .items {
+  flex-direction: column;
+}
+#projects .item {
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+}
+
+/* Section: Contact */
+#contact {
+  padding: 0 0.75rem;
+}
+#contact h1,
+#contact .btn,
+#contact .icons {
+  text-align: center;
+  display: block;
+}
+#contact .download {
+  margin: 1rem 0;
+}
+#contact i {
+  margin-right: 0.75rem;
+}
+#contact .mobile-hide {
+  display: none;
+}
+/* Smartphones Galaxy S5 */
+@media (max-width: 388px) {
+  /* Navbar */
+  #main-nav ul {
+    flex-direction: column;
+  }
+  header .header-text {
+    padding: 1rem 0;
+  }
+}
+
+/* Smartphones */
+@media (max-width: 500px) {
+  header .header-text {
+    margin: 0;
+  }
+  header .header-text h1 {
+    font-size: 1.5rem !important;
+  }
+  header .btn {
+    margin: 2rem 0;
+  }
+
+  #contact .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+  #contact .item1,
+  #contact .item2 {
+    width: 100%;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  header .header-text {
+    margin: 0;
+  }
+  header .header-text h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Section: About */
+#about .box {
+  width: 100%;
+}

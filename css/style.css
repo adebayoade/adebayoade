@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.7;
+  font-size: 18px;
+  color: #545454;
+}
+a {
+  text-decoration: none;
+  color: #545454;
+}
+p {
+  margin: 0.75rem 0;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0.75rem;
+}
+.text-primary {
+  color: #1e836c;
+}
+.text-danger {
+  color: crimson;
+}
+.text-center {
+  text-align: center;
+}
+.l-heading {
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-bottom: 0.75rem;
+}
+.m-heading {
+  font-size: 2.5rem;
+  line-height: 1.1;
+  margin-bottom: 0.75rem;
+}
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.bg-dark {
+  background-color: #333;
+}
+.bg-light {
+  background-color: #f4f4f4;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #1e836c;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #545454;
+  color: #1e836c;
+}
+.p-1 {
+  padding: 1.5rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+.p-3 {
+  padding: 3rem;
+}
+.py-1 {
+  padding: 1.5rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+.px-1 {
+  padding: 0 1.5rem;
+}
+.px-2 {
+  padding: 0 2rem;
+}
+.mx-1 {
+  margin: 0 2rem;
+}
+.icon {
+  border: 1px solid #f4f4f4;
+  border-radius: 50%;
+}
+.cursive {
+  font-family: "Dancing Script", cursive;;
+}
+/* Header */
+header {
+  background: url(../img/background.jpg) no-repeat center center/cover;
+  height: 600px;
+}
+header .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#navbar {
+  /* background-color: rgba(51, 51, 51, 0.6); */
+  /* position: fixed; */
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+#main-nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+#main-nav ul a {
+  padding: 1rem;
+  margin: 0 0.25rem;
+  color: #fff;
+  font-family: "Dancing Script", cursive;
+}
+#main-nav ul a:hover {
+  background: #1e836c;
+  border-radius: 5px;
+  color: #e0ebe8;
+}
+header .header-text {
+  text-align: center;
+  margin: 3rem 6rem;
+}
+header h1 {
+  color: #e0ebe8;
+  line-height: 1.7;
+}
+header .btn {
+  margin-top: 2rem;
+  padding: 0.5rem 2rem;
+}
+
+/* Section: About */
+#about .box {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+#about .box h1 {
+  font-family: "Dancing Script", cursive;
+  margin: 2rem 0;
+}
+#about .icon {
+  border: 2px solid #545454;
+}
+#about .lead {
+  font-family: "Dancing Script", cursive;
+}
+
+/* Section: Super power */
+#super-powers .icon {
+  border: none;
+}
+#super-powers h1 {
+  font-family: "Dancing Script", cursive;
+}
+#super-powers .items {
+  display: flex;
+  flex-direction: column;
+}
+#super-powers .item1 {
+  margin-right: auto;
+  width: 50%;
+}
+#super-powers .item2 {
+  margin-left: auto;
+  width: 50%;
+}
+#super-powers .item3 {
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Section: projects */
+#projects .items {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#projects .item {
+  flex: 1;
+  flex-grow: 1;
+}
+#projects .test .btn {
+  /* display: none; */
+  margin-top: 1.7rem;
+}
+#projects h1 {
+  font-family: "Dancing Script", cursive;
+}
+#projects .jlscm,
+#projects .sh-cart {
+  border: 2px dotted #545454;
+}
+
+/* Section: Contact */
+#contact h1 {
+  font-family: "Dancing Script", cursive;
+}
+#contact .contact-info {
+  display: flex;
+  justify-content: space-between;
+}
+#contact .item1,
+#contact .item2 {
+  flex: 1;
+  flex-grow: 1;
+}
+#contact .icons {
+  width: 100%;
+}
+#contact i {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+#contact .download {
+  margin-left: 1rem;
+}
+#contact .fa-facebook:hover {
+  color: #3b5998;
+}
+#contact .fa-linkedin:hover {
+  color: #0077b5;
+}
+#contact .fa-twitter:hover {
+  color: #55acee;
+}
+#contact .fa-whatsapp:hover {
+  color: #1e836c;
+}
+#contact .fa-github:hover {
+  color: #333333;
+}
+#contact .fa-instagram:hover {
+  color: #5851db;
+}
+
+/* Footer */
+footer p {
+  margin: 0 !important;
+  color: #e0ebe8;
+  font-size: 0.75em;
+}
+footer .cursive {
+  font-size: 1rem;
+}
+footer a {
+  color: #e0ebe8;
+}
+footer a:hover {
+  color: crimson;
+}
