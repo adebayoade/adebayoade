@@ -3,7 +3,7 @@
 
 - You can get more information by visiting my porfolio website at [https://www.adebayoade.com](https://www.adebayoade.com)
 
-- 📫 How to reach me **ade.adebayo99@gmail.com**
+- 📫 How to reach me **me@adebayoade.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
